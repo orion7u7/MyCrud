@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: crud-example-orion
+
+datasource:
+  my-connection:
+    jdbc-url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: 1237
+    maximum-pool-size: 10
+    poll-name: "curd-pool"
+    auto-commit: true
